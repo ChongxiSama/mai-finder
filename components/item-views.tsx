@@ -1,9 +1,9 @@
 "use client";
 
-import Image from "next/image";
 import { Fragment, useState } from "react";
 import { ImageOffIcon } from "lucide-react";
 
+import { FadeImage } from "@/components/fade-image";
 import {
   Card,
   CardDescription,
@@ -51,7 +51,7 @@ export function ItemThumb({
   }
 
   return (
-    <Image
+    <FadeImage
       src={src}
       alt={alt}
       fill

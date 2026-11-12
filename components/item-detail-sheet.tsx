@@ -15,6 +15,7 @@ import {
   LockIcon,
 } from "lucide-react";
 
+import { FadeImage } from "@/components/fade-image";
 import { RarityBadge } from "@/components/rarity-badge";
 import { Button, buttonVariants } from "@/components/ui/button";
 import {
@@ -109,22 +110,28 @@ function DetailImage({
       onTouchStart={handleTouchStart}
       onTouchEnd={handleTouchEnd}
     >
-      <Image
+      {item.thumb && item.thumb !== item.image ? (
+        <Image
+          src={item.thumb}
+          alt=""
+          aria-hidden
+          fill
+          sizes="(max-width: 640px) 100vw, 384px"
+          loading="eager"
+          className={`scale-110 object-contain p-4 blur-2xl transition-opacity duration-500 ${
+            loaded ? "opacity-0" : "opacity-60"
+          }`}
+        />
+      ) : null}
+      <FadeImage
         src={item.image}
         alt={item.name}
         fill
         sizes="(max-width: 640px) 100vw, 384px"
-        className={`object-contain p-4 transition-opacity duration-200 ${
-          loaded ? "opacity-100" : "opacity-0"
-        }`}
-        onLoad={() => setLoaded(true)}
+        className="object-contain p-4"
+        onReveal={() => setLoaded(true)}
         onError={() => setFailed(true)}
       />
-      {!loaded ? (
-        <div className="absolute inset-0 grid place-items-center text-xs text-muted-foreground">
-          加载图片…
-        </div>
-      ) : null}
     </div>
   );
 }

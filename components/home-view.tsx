@@ -1,9 +1,9 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { DatabaseIcon, ImageOffIcon, InfoIcon, SearchIcon } from "lucide-react";
 
+import { FadeImage } from "@/components/fade-image";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { Button } from "@/components/ui/button";
 import {
@@ -36,7 +36,7 @@ function Preview({ type, eager }: { type: ManifestType; eager: boolean }) {
   if (SINGLE_PREVIEW_TYPES.has(type.key) || type.preview.length === 1) {
     return (
       <div className="checkerboard relative h-full">
-        <Image
+        <FadeImage
           src={type.preview[0] ?? ""}
           alt=""
           fill
@@ -55,7 +55,7 @@ function Preview({ type, eager }: { type: ManifestType; eager: boolean }) {
           key={src}
           className="relative overflow-hidden rounded-md bg-background"
         >
-          <Image
+          <FadeImage
             src={src}
             alt=""
             fill
@@ -112,7 +112,7 @@ export function HomeView({ manifest }: { manifest: Manifest }) {
     <main className="mx-auto w-full max-w-[560px] flex-1 px-4 pb-6 md:max-w-5xl md:px-8 md:pt-2">
       <header className="flex items-center gap-2.5 pt-5 md:hidden">
         <div className="flex items-center gap-2.5">
-          <Image
+          <FadeImage
             src="/icon-192.png"
             alt=""
             width={36}
@@ -199,7 +199,7 @@ export function HomeView({ manifest }: { manifest: Manifest }) {
               >
                 <div className="relative aspect-square overflow-hidden rounded-lg bg-muted">
                   {item.thumb ? (
-                    <Image
+                    <FadeImage
                       src={item.thumb}
                       alt=""
                       fill
