@@ -1,7 +1,7 @@
 {
   "total": 10486,
-  "imageCount": 4878,
-  "textureCount": 3064,
+  "imageCount": 4899,
+  "textureCount": 3085,
   "types": [
     {
       "key": "icon",
@@ -18,7 +18,7 @@
     {
       "key": "plate",
       "count": 397,
-      "imageCount": 376,
+      "imageCount": 397,
       "preview": [
         "/assets/thumbs/UI_Plate_000001.webp",
         "/assets/thumbs/UI_Plate_000002.webp",
