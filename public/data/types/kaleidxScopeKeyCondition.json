@@ -1,0 +1,67 @@
+[
+  {
+    "type": "kaleidxScopeKeyCondition",
+    "id": 1,
+    "name": "青の鍵 獲得条件",
+    "dataName": "KaleidxScopeKeyCondition01",
+    "xml": "kaleidxScopeKeyCondition/KaleidxScopeKeyCondition01/KaleidxScopeKeyCondition.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "kaleidxScopeKeyCondition",
+    "id": 2,
+    "name": "白の鍵 獲得条件",
+    "dataName": "KaleidxScopeKeyCondition02",
+    "xml": "kaleidxScopeKeyCondition/KaleidxScopeKeyCondition02/KaleidxScopeKeyCondition.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "kaleidxScopeKeyCondition",
+    "id": 3,
+    "name": "紫の鍵 獲得条件",
+    "dataName": "KaleidxScopeKeyCondition03",
+    "xml": "kaleidxScopeKeyCondition/KaleidxScopeKeyCondition03/KaleidxScopeKeyCondition.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "kaleidxScopeKeyCondition",
+    "id": 4,
+    "name": "黒の鍵 獲得条件",
+    "dataName": "KaleidxScopeKeyCondition04",
+    "xml": "kaleidxScopeKeyCondition/KaleidxScopeKeyCondition04/KaleidxScopeKeyCondition.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "kaleidxScopeKeyCondition",
+    "id": 5,
+    "name": "黄の鍵 獲得条件",
+    "dataName": "KaleidxScopeKeyCondition05",
+    "xml": "kaleidxScopeKeyCondition/KaleidxScopeKeyCondition05/KaleidxScopeKeyCondition.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "type": "mission",
+    "id": 1,
+    "name": "ログインミッション_LEVEL1",
+    "dataName": "mission000001",
+    "xml": "mission/mission000001/Mission.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "mission",
+    "id": 2,
+    "name": "ログインミッション_LEVEL2",
+    "dataName": "mission000002",
+    "xml": "mission/mission000002/Mission.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "mission",
+    "id": 3,
+    "name": "楽曲ミッション_LEVEL1",
+    "dataName": "mission000003",
+    "xml": "mission/mission000003/Mission.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "mission",
+    "id": 4,
+    "name": "楽曲ミッション_LEVEL2",
+    "dataName": "mission000004",
+    "xml": "mission/mission000004/Mission.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "mission",
+    "id": 5,
+    "name": "バディミッション_LEVEL1",
+    "dataName": "mission000005",
+    "xml": "mission/mission000005/Mission.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "mission",
+    "id": 6,
+    "name": "バディミッション_LEVEL2",
+    "dataName": "mission000006",
+    "xml": "mission/mission000006/Mission.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  }
+]

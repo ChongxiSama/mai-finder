@@ -1,0 +1,15 @@
+[
+  {
+    "type": "releasetag",
+    "id": 1,
+    "name": "Ver1.00.00",
+    "dataName": "ReleaseTag000001",
+    "xml": "releasetag/ReleaseTag000001/ReleaseTag.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "type": "kaleidxScopeGatePhase",
+    "id": 1,
+    "name": "青の扉緩和条件",
+    "dataName": "KaleidxScopeGatePhase01",
+    "xml": "kaleidxScopeGatePhase/KaleidxScopeGatePhase01/KaleidxScopeGatePhase.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "kaleidxScopeGatePhase",
+    "id": 2,
+    "name": "白の扉緩和条件",
+    "dataName": "KaleidxScopeGatePhase02",
+    "xml": "kaleidxScopeGatePhase/KaleidxScopeGatePhase02/KaleidxScopeGatePhase.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "kaleidxScopeGatePhase",
+    "id": 3,
+    "name": "紫の扉緩和条件",
+    "dataName": "KaleidxScopeGatePhase03",
+    "xml": "kaleidxScopeGatePhase/KaleidxScopeGatePhase03/KaleidxScopeGatePhase.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "kaleidxScopeGatePhase",
+    "id": 4,
+    "name": "黒の扉緩和条件",
+    "dataName": "KaleidxScopeGatePhase04",
+    "xml": "kaleidxScopeGatePhase/KaleidxScopeGatePhase04/KaleidxScopeGatePhase.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "kaleidxScopeGatePhase",
+    "id": 5,
+    "name": "黄の扉緩和条件",
+    "dataName": "KaleidxScopeGatePhase05",
+    "xml": "kaleidxScopeGatePhase/KaleidxScopeGatePhase05/KaleidxScopeGatePhase.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  }
+]

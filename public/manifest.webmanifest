@@ -1,0 +1,31 @@
+{
+  "name": "mai-finder — 舞萌DX收藏品/静态资源wiki",
+  "short_name": "mai-finder",
+  "description": "按名称、数据名或 ID 查询舞萌 DX 的头像、姓名框、背景、旅行伙伴、搭档、称号与 XML 资料。",
+  "lang": "zh-CN",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0a0a0a",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

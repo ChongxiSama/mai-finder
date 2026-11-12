@@ -1,0 +1,67 @@
+[
+  {
+    "type": "kaleidxScopeKey",
+    "id": 1,
+    "name": "蓝色钥匙",
+    "dataName": "KaleidxScopeKey01",
+    "xml": "kaleidxScopeKey/KaleidxScopeKey01/KaleidxScopeKey.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "kaleidxScopeKey",
+    "id": 2,
+    "name": "白色钥匙",
+    "dataName": "KaleidxScopeKey02",
+    "xml": "kaleidxScopeKey/KaleidxScopeKey02/KaleidxScopeKey.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "kaleidxScopeKey",
+    "id": 3,
+    "name": "紫色钥匙",
+    "dataName": "KaleidxScopeKey03",
+    "xml": "kaleidxScopeKey/KaleidxScopeKey03/KaleidxScopeKey.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "kaleidxScopeKey",
+    "id": 4,
+    "name": "黑色钥匙",
+    "dataName": "KaleidxScopeKey04",
+    "xml": "kaleidxScopeKey/KaleidxScopeKey04/KaleidxScopeKey.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "kaleidxScopeKey",
+    "id": 5,
+    "name": "黃色钥匙",
+    "dataName": "KaleidxScopeKey05",
+    "xml": "kaleidxScopeKey/KaleidxScopeKey05/KaleidxScopeKey.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  }
+]

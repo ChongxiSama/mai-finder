@@ -1,0 +1,67 @@
+[
+  {
+    "type": "musicDifficulty",
+    "id": 0,
+    "name": "Basic",
+    "dataName": "MusicDifficulty000000",
+    "xml": "musicDifficulty/MusicDifficulty000000/MusicDifficulty.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "musicDifficulty",
+    "id": 1,
+    "name": "Advanced",
+    "dataName": "MusicDifficulty000001",
+    "xml": "musicDifficulty/MusicDifficulty000001/MusicDifficulty.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "musicDifficulty",
+    "id": 2,
+    "name": "Expert",
+    "dataName": "MusicDifficulty000002",
+    "xml": "musicDifficulty/MusicDifficulty000002/MusicDifficulty.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "musicDifficulty",
+    "id": 3,
+    "name": "Master",
+    "dataName": "MusicDifficulty000003",
+    "xml": "musicDifficulty/MusicDifficulty000003/MusicDifficulty.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "musicDifficulty",
+    "id": 4,
+    "name": "ReMaster",
+    "dataName": "MusicDifficulty000004",
+    "xml": "musicDifficulty/MusicDifficulty000004/MusicDifficulty.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  }
+]

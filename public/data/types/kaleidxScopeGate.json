@@ -1,0 +1,67 @@
+[
+  {
+    "type": "kaleidxScopeGate",
+    "id": 1,
+    "name": "蓝色之门",
+    "dataName": "KaleidxScopeGate01",
+    "xml": "kaleidxScopeGate/KaleidxScopeGate01/KaleidxScopeGate.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "kaleidxScopeGate",
+    "id": 2,
+    "name": "白色之门",
+    "dataName": "KaleidxScopeGate02",
+    "xml": "kaleidxScopeGate/KaleidxScopeGate02/KaleidxScopeGate.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "kaleidxScopeGate",
+    "id": 3,
+    "name": "紫色之门",
+    "dataName": "KaleidxScopeGate03",
+    "xml": "kaleidxScopeGate/KaleidxScopeGate03/KaleidxScopeGate.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "kaleidxScopeGate",
+    "id": 4,
+    "name": "黑色之门",
+    "dataName": "KaleidxScopeGate04",
+    "xml": "kaleidxScopeGate/KaleidxScopeGate04/KaleidxScopeGate.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "kaleidxScopeGate",
+    "id": 5,
+    "name": "黃色之门",
+    "dataName": "KaleidxScopeGate05",
+    "xml": "kaleidxScopeGate/KaleidxScopeGate05/KaleidxScopeGate.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  }
+]

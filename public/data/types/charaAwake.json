@@ -1,0 +1,80 @@
+[
+  {
+    "type": "charaAwake",
+    "id": 1,
+    "name": "覚醒１回目",
+    "dataName": "charaAwake000001",
+    "xml": "charaAwake/charaAwake000001/CharaAwake.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "charaAwake",
+    "id": 2,
+    "name": "覚醒２回目",
+    "dataName": "charaAwake000002",
+    "xml": "charaAwake/charaAwake000002/CharaAwake.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "charaAwake",
+    "id": 3,
+    "name": "覚醒３回目",
+    "dataName": "charaAwake000003",
+    "xml": "charaAwake/charaAwake000003/CharaAwake.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "charaAwake",
+    "id": 4,
+    "name": "覚醒４回目",
+    "dataName": "charaAwake000004",
+    "xml": "charaAwake/charaAwake000004/CharaAwake.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "charaAwake",
+    "id": 5,
+    "name": "覚醒５回目",
+    "dataName": "charaAwake000005",
+    "xml": "charaAwake/charaAwake000005/CharaAwake.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "charaAwake",
+    "id": 6,
+    "name": "覚醒６回目",
+    "dataName": "charaAwake000006",
+    "xml": "charaAwake/charaAwake000006/CharaAwake.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  }
+]

@@ -1,0 +1,388 @@
+{
+  "total": 10486,
+  "imageCount": 4878,
+  "textureCount": 3064,
+  "types": [
+    {
+      "key": "icon",
+      "count": 1041,
+      "imageCount": 1041,
+      "preview": [
+        "/assets/thumbs/UI_Icon_000001.webp",
+        "/assets/thumbs/UI_Icon_000002.webp",
+        "/assets/thumbs/UI_Icon_000003.webp",
+        "/assets/thumbs/UI_Icon_000010.webp"
+      ],
+      "primary": true
+    },
+    {
+      "key": "plate",
+      "count": 397,
+      "imageCount": 376,
+      "preview": [
+        "/assets/thumbs/UI_Plate_000001.webp",
+        "/assets/thumbs/UI_Plate_000002.webp",
+        "/assets/thumbs/UI_Plate_000003.webp",
+        "/assets/thumbs/UI_Plate_000011.webp"
+      ],
+      "primary": true
+    },
+    {
+      "key": "frame",
+      "count": 343,
+      "imageCount": 343,
+      "preview": [
+        "/assets/thumbs/UI_Frame_000002.webp",
+        "/assets/thumbs/UI_Frame_000003.webp",
+        "/assets/thumbs/UI_Frame_100101.webp",
+        "/assets/thumbs/UI_Frame_100301.webp"
+      ],
+      "primary": true
+    },
+    {
+      "key": "chara",
+      "count": 979,
+      "imageCount": 979,
+      "preview": [
+        "/assets/thumbs/UI_Chara_000101.webp",
+        "/assets/thumbs/UI_Chara_000102.webp",
+        "/assets/thumbs/UI_Chara_000103.webp",
+        "/assets/thumbs/UI_Chara_000104.webp"
+      ],
+      "primary": true
+    },
+    {
+      "key": "partner",
+      "count": 24,
+      "imageCount": 24,
+      "preview": [
+        "/assets/thumbs/UI_Partner_000001.webp",
+        "/assets/thumbs/UI_Partner_000011.webp",
+        "/assets/thumbs/UI_Partner_000012.webp",
+        "/assets/thumbs/UI_Partner_000013.webp"
+      ],
+      "primary": true
+    },
+    {
+      "key": "title",
+      "count": 2990,
+      "imageCount": 0,
+      "preview": [],
+      "primary": true
+    },
+    {
+      "key": "photoFrame",
+      "count": 19,
+      "imageCount": 19,
+      "preview": [
+        "/assets/thumbs/UI_PhotoFrame_000011.webp",
+        "/assets/thumbs/UI_PhotoFrame_000012.webp",
+        "/assets/thumbs/UI_PhotoFrame_000014.webp",
+        "/assets/thumbs/UI_PhotoFrame_000015.webp"
+      ],
+      "primary": true
+    },
+    {
+      "key": "mapTreasure",
+      "count": 1953,
+      "imageCount": 1446,
+      "preview": [
+        "/assets/thumbs/UI_Chara_000101.webp",
+        "/assets/thumbs/UI_Chara_000102.webp",
+        "/assets/thumbs/UI_Chara_000103.webp",
+        "/assets/thumbs/UI_Chara_000104.webp"
+      ],
+      "primary": false
+    },
+    {
+      "key": "event",
+      "count": 790,
+      "imageCount": 0,
+      "preview": [],
+      "primary": false
+    },
+    {
+      "key": "collectionGenre",
+      "count": 185,
+      "imageCount": 185,
+      "preview": [
+        "/assets/thumbs/UI_CLC_TabTitle_Default.webp",
+        "/assets/thumbs/UI_CLC_TabTitle_New.webp",
+        "/assets/thumbs/UI_CLC_TabTitle_Record.webp",
+        "/assets/thumbs/UI_CLC_TabTitle_maimai.webp"
+      ],
+      "primary": false
+    },
+    {
+      "key": "mapBonusMusic",
+      "count": 182,
+      "imageCount": 0,
+      "preview": [],
+      "primary": false
+    },
+    {
+      "key": "mapColor",
+      "count": 174,
+      "imageCount": 0,
+      "preview": [],
+      "primary": false
+    },
+    {
+      "key": "charaGenre",
+      "count": 169,
+      "imageCount": 169,
+      "preview": [
+        "/assets/thumbs/UI_CMN_TabTitle_OriginalMap_01.webp",
+        "/assets/thumbs/UI_CMN_TabTitle_OriginalMap_02.webp",
+        "/assets/thumbs/UI_CMN_TabTitle_OriginalMap_03.webp",
+        "/assets/thumbs/UI_CMN_TabTitle_OriginalMap_04.webp"
+      ],
+      "primary": false
+    },
+    {
+      "key": "map",
+      "count": 166,
+      "imageCount": 0,
+      "preview": [],
+      "primary": false
+    },
+    {
+      "key": "shopItem",
+      "count": 164,
+      "imageCount": 159,
+      "preview": [
+        "/assets/thumbs/UI_Partner_000011.webp",
+        "/assets/thumbs/UI_Partner_000012.webp",
+        "/assets/thumbs/UI_Partner_000013.webp",
+        "/assets/thumbs/UI_Partner_000014.webp"
+      ],
+      "primary": false
+    },
+    {
+      "key": "course",
+      "count": 146,
+      "imageCount": 0,
+      "preview": [],
+      "primary": false
+    },
+    {
+      "key": "musicGroup",
+      "count": 142,
+      "imageCount": 0,
+      "preview": [],
+      "primary": false
+    },
+    {
+      "key": "partnerCloseness",
+      "count": 138,
+      "imageCount": 0,
+      "preview": [],
+      "primary": false
+    },
+    {
+      "key": "loginBonus",
+      "count": 88,
+      "imageCount": 53,
+      "preview": [
+        "/assets/thumbs/UI_Partner_000011.webp",
+        "/assets/thumbs/UI_Partner_000012.webp",
+        "/assets/thumbs/UI_Partner_000013.webp",
+        "/assets/thumbs/UI_Partner_000014.webp"
+      ],
+      "primary": false
+    },
+    {
+      "key": "information",
+      "count": 72,
+      "imageCount": 0,
+      "preview": [],
+      "primary": false
+    },
+    {
+      "key": "dotNetVersion",
+      "count": 53,
+      "imageCount": 0,
+      "preview": [],
+      "primary": false
+    },
+    {
+      "key": "challenge",
+      "count": 29,
+      "imageCount": 0,
+      "preview": [],
+      "primary": false
+    },
+    {
+      "key": "class",
+      "count": 26,
+      "imageCount": 0,
+      "preview": [],
+      "primary": false
+    },
+    {
+      "key": "musicLevel",
+      "count": 25,
+      "imageCount": 25,
+      "preview": [
+        "/assets/thumbs/UI_CLC_TabTitle_Others.webp",
+        "/assets/thumbs/UI_CMN_TabTitle_Level_01.webp",
+        "/assets/thumbs/UI_CMN_TabTitle_Level_02.webp",
+        "/assets/thumbs/UI_CMN_TabTitle_Level_03.webp"
+      ],
+      "primary": false
+    },
+    {
+      "key": "udemaeBoss",
+      "count": 23,
+      "imageCount": 0,
+      "preview": [],
+      "primary": false
+    },
+    {
+      "key": "missionMusicCondition",
+      "count": 22,
+      "imageCount": 0,
+      "preview": [],
+      "primary": false
+    },
+    {
+      "key": "musicGenre",
+      "count": 22,
+      "imageCount": 19,
+      "preview": [
+        "/assets/thumbs/UI_CMN_TabTitle_NewSong.webp",
+        "/assets/thumbs/UI_CMN_TabTitle_Ranking.webp",
+        "/assets/thumbs/UI_CMN_TabTitle_RandomRating.webp",
+        "/assets/thumbs/UI_CMN_TabTitle_MyFav.webp"
+      ],
+      "primary": false
+    },
+    {
+      "key": "musicVersion",
+      "count": 20,
+      "imageCount": 20,
+      "preview": [
+        "/assets/thumbs/UI_CMN_TabTitle_MaimaiTitle_Ver100.webp",
+        "/assets/thumbs/UI_CMN_TabTitle_MaimaiTitle_Ver110.webp",
+        "/assets/thumbs/UI_CMN_TabTitle_MaimaiTitle_Ver120.webp",
+        "/assets/thumbs/UI_CMN_TabTitle_MaimaiTitle_Ver130.webp"
+      ],
+      "primary": false
+    },
+    {
+      "key": "kaleidxScopeMusicGroup",
+      "count": 15,
+      "imageCount": 0,
+      "preview": [],
+      "primary": false
+    },
+    {
+      "key": "musicClearRank",
+      "count": 14,
+      "imageCount": 0,
+      "preview": [],
+      "primary": false
+    },
+    {
+      "key": "ticket",
+      "count": 11,
+      "imageCount": 11,
+      "preview": [
+        "/assets/thumbs/UI_CMN_Tix_Icon_NoTicket.webp",
+        "/assets/thumbs/UI_CMN_Tix_Icon_Paid_01.webp",
+        "/assets/thumbs/UI_CMN_Tix_Icon_Paid_02.webp",
+        "/assets/thumbs/UI_CMN_Tix_Icon_Paid_04.webp"
+      ],
+      "primary": false
+    },
+    {
+      "key": "collectionType",
+      "count": 9,
+      "imageCount": 0,
+      "preview": [],
+      "primary": false
+    },
+    {
+      "key": "shopItemCategory",
+      "count": 9,
+      "imageCount": 9,
+      "preview": [
+        "/assets/thumbs/UI_CLC_TabTitle_Ticket.webp",
+        "/assets/thumbs/UI_CLC_TabTitle_Partner.webp",
+        "/assets/thumbs/UI_CLC_TabTitle_Character.webp",
+        "/assets/thumbs/UI_CLC_TabTitle_NamePlate.webp"
+      ],
+      "primary": false
+    },
+    {
+      "key": "charaAwake",
+      "count": 6,
+      "imageCount": 0,
+      "preview": [],
+      "primary": false
+    },
+    {
+      "key": "mission",
+      "count": 6,
+      "imageCount": 0,
+      "preview": [],
+      "primary": false
+    },
+    {
+      "key": "kaleidxScopeCourse",
+      "count": 5,
+      "imageCount": 0,
+      "preview": [],
+      "primary": false
+    },
+    {
+      "key": "kaleidxScopeGate",
+      "count": 5,
+      "imageCount": 0,
+      "preview": [],
+      "primary": false
+    },
+    {
+      "key": "kaleidxScopeGatePhase",
+      "count": 5,
+      "imageCount": 0,
+      "preview": [],
+      "primary": false
+    },
+    {
+      "key": "kaleidxScopeKey",
+      "count": 5,
+      "imageCount": 0,
+      "preview": [],
+      "primary": false
+    },
+    {
+      "key": "kaleidxScopeKeyCondition",
+      "count": 5,
+      "imageCount": 0,
+      "preview": [],
+      "primary": false
+    },
+    {
+      "key": "musicDifficulty",
+      "count": 5,
+      "imageCount": 0,
+      "preview": [],
+      "primary": false
+    },
+    {
+      "key": "courseMode",
+      "count": 3,
+      "imageCount": 0,
+      "preview": [],
+      "primary": false
+    },
+    {
+      "key": "releasetag",
+      "count": 1,
+      "imageCount": 0,
+      "preview": [],
+      "primary": false
+    }
+  ]
+}

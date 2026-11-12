@@ -1,0 +1,67 @@
+[
+  {
+    "type": "kaleidxScopeCourse",
+    "id": 1,
+    "name": "青のカレイドスコープ",
+    "dataName": "KaleidxScopeCourse01",
+    "xml": "kaleidxScopeCourse/KaleidxScopeCourse01/KaleidxScopeCourse.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "kaleidxScopeCourse",
+    "id": 2,
+    "name": "白のカレイドスコープ",
+    "dataName": "KaleidxScopeCourse02",
+    "xml": "kaleidxScopeCourse/KaleidxScopeCourse02/KaleidxScopeCourse.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "kaleidxScopeCourse",
+    "id": 3,
+    "name": "紫のカレイドスコープ",
+    "dataName": "KaleidxScopeCourse03",
+    "xml": "kaleidxScopeCourse/KaleidxScopeCourse03/KaleidxScopeCourse.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "kaleidxScopeCourse",
+    "id": 4,
+    "name": "黒のカレイドスコープ",
+    "dataName": "KaleidxScopeCourse04",
+    "xml": "kaleidxScopeCourse/KaleidxScopeCourse04/KaleidxScopeCourse.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "kaleidxScopeCourse",
+    "id": 5,
+    "name": "黄のカレイドスコープ",
+    "dataName": "KaleidxScopeCourse05",
+    "xml": "kaleidxScopeCourse/KaleidxScopeCourse05/KaleidxScopeCourse.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  }
+]

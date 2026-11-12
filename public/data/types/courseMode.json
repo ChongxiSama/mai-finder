@@ -1,0 +1,41 @@
+[
+  {
+    "type": "courseMode",
+    "id": 1,
+    "name": "段位认定",
+    "dataName": "courseMode000001",
+    "xml": "courseMode/courseMode000001/CourseMode.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "courseMode",
+    "id": 2,
+    "name": "真段位认定",
+    "dataName": "courseMode000002",
+    "xml": "courseMode/courseMode000002/CourseMode.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  },
+  {
+    "type": "courseMode",
+    "id": 3,
+    "name": "随机段位认定",
+    "dataName": "courseMode000003",
+    "xml": "courseMode/courseMode000003/CourseMode.xml",
+    "rarity": null,
+    "kindId": null,
+    "unlock": null,
+    "locked": false,
+    "image": null,
+    "thumb": null
+  }
+]
