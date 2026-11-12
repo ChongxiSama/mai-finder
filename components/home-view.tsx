@@ -14,6 +14,7 @@ import {
 import { Kbd } from "@/components/ui/kbd";
 import {
   itemKey,
+  prefetchSearchIndex,
   typeLabel,
   type Manifest,
   type ManifestType,
@@ -143,6 +144,8 @@ export function HomeView({ manifest }: { manifest: Manifest }) {
 
       <Link
         href="/search"
+        onPointerEnter={prefetchSearchIndex}
+        onFocus={prefetchSearchIndex}
         className="mt-5 flex h-11 w-full items-center gap-2.5 rounded-full bg-muted px-4 text-sm text-muted-foreground transition-colors active:bg-muted/70"
       >
         <SearchIcon className="size-4" />

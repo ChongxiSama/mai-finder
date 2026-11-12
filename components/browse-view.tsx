@@ -37,7 +37,6 @@ import { useItemDetail } from "@/lib/item-detail";
 import {
   BROWSE_PAGE_SIZE,
   fetchTypeItems,
-  normalizeSearch,
   PRIMARY_ORDER,
   typeLabel,
   type ItemRecord,
@@ -45,6 +44,7 @@ import {
 } from "@/lib/items";
 
 const PAGE_SIZE = BROWSE_PAGE_SIZE;
+const COLLATOR = new Intl.Collator("zh-CN");
 
 const SORT_ITEMS: { value: string; label: string }[] = [
   { value: "default", label: "默认" },
@@ -59,15 +59,7 @@ const ACTIVE_TOGGLE =
 
 type SortKey = "default" | "id-asc" | "id-desc" | "name";
 
-function toBrowserItem(item: ItemRecord): BrowserItem {
-  return {
-    ...item,
-    search: normalizeSearch(`${item.name} ${item.dataName} ${item.id ?? ""}`),
-  };
-}
-
 type ViewMode = "grid" | "list";
-type BrowserItem = ItemRecord & { search: string };
 
 function isSortKey(value: string | undefined): value is SortKey {
   return value !== undefined && SORT_VALUES.has(value);
@@ -234,9 +226,7 @@ export function BrowseView({
   initialItems: ItemRecord[];
 }) {
   const router = useRouter();
-  const [items, setItems] = useState<BrowserItem[]>(() =>
-    initialItems.map(toBrowserItem),
-  );
+  const [items, setItems] = useState<ItemRecord[]>(initialItems);
   const [fullLoaded, setFullLoaded] = useState(
     initialItems.length >= typeInfo.count,
   );
@@ -265,7 +255,7 @@ export function BrowseView({
         if (!active) {
           return;
         }
-        setItems(data.map(toBrowserItem));
+        setItems(data);
         setFullLoaded(true);
         setLoadFailed(false);
       })
@@ -302,9 +292,7 @@ export function BrowseView({
       case "id-desc":
         return [...result].sort((a, b) => (b.id ?? -1) - (a.id ?? -1));
       case "name":
-        return [...result].sort((a, b) =>
-          a.name.localeCompare(b.name, "zh-CN"),
-        );
+        return [...result].sort((a, b) => COLLATOR.compare(a.name, b.name));
       default:
         return result;
     }

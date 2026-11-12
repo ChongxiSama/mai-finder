@@ -35,8 +35,6 @@ export type SearchEntry = {
   thumb: string | null;
   rarity: string | null;
   search: string;
-  nameNorm: string;
-  dataNameNorm: string;
 };
 
 export const RARITY_LABELS: Record<string, string> = {
@@ -130,6 +128,10 @@ export function fetchTypeItems(type: string): Promise<ItemRecord[]> {
   return promise;
 }
 
+export function prefetchSearchIndex(): void {
+  void fetchSearchIndex().catch(() => {});
+}
+
 export function fetchSearchIndex(): Promise<SearchEntry[]> {
   if (searchPromise === null) {
     searchPromise = fetchJson<
@@ -151,8 +153,6 @@ export function fetchSearchIndex(): Promise<SearchEntry[]> {
           thumb,
           rarity,
           search: normalizeSearch(`${name} ${dataName} ${id ?? ""}`),
-          nameNorm: normalizeSearch(name),
-          dataNameNorm: normalizeSearch(dataName),
         })),
       )
       .catch((error) => {

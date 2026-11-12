@@ -22,7 +22,7 @@ import {
 
 import { ThemeToggle } from "@/components/theme-toggle";
 import { Button } from "@/components/ui/button";
-import { typeLabel, type Manifest } from "@/lib/items";
+import { prefetchSearchIndex, typeLabel, type Manifest } from "@/lib/items";
 
 const TYPE_ICONS: Record<string, LucideIcon> = {
   icon: UserRoundIcon,
@@ -97,6 +97,12 @@ export function Sidebar({ manifest }: { manifest: Manifest }) {
                 <Link
                   key={item.href}
                   href={item.href}
+                  onPointerEnter={
+                    item.href === "/search" ? prefetchSearchIndex : undefined
+                  }
+                  onFocus={
+                    item.href === "/search" ? prefetchSearchIndex : undefined
+                  }
                   title={collapsed ? item.label : undefined}
                   className={`flex items-center rounded-full py-2.5 text-sm transition-colors ${
                     collapsed ? "justify-center px-0" : "gap-3 px-3"

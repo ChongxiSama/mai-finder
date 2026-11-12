@@ -86,22 +86,37 @@ function Highlight({ text, query }: { text: string; query: string }) {
   );
 }
 
-function rankEntry(entry: SearchEntry, normalized: string): number {
-  const { nameNorm, dataNameNorm } = entry;
+const COLLATOR = new Intl.Collator("zh-CN");
+const normCache = new WeakMap<SearchEntry, { name: string; dataName: string }>();
 
-  if (nameNorm === normalized) {
+function normOf(entry: SearchEntry): { name: string; dataName: string } {
+  let value = normCache.get(entry);
+  if (value === undefined) {
+    value = {
+      name: normalizeSearch(entry.name),
+      dataName: normalizeSearch(entry.dataName),
+    };
+    normCache.set(entry, value);
+  }
+  return value;
+}
+
+function rankEntry(entry: SearchEntry, normalized: string): number {
+  const { name, dataName } = normOf(entry);
+
+  if (name === normalized) {
     return 0;
   }
-  if (nameNorm.startsWith(normalized)) {
+  if (name.startsWith(normalized)) {
     return 1;
   }
-  if (nameNorm.includes(normalized)) {
+  if (name.includes(normalized)) {
     return 2;
   }
-  if (dataNameNorm === normalized) {
+  if (dataName === normalized) {
     return 3;
   }
-  if (dataNameNorm.includes(normalized)) {
+  if (dataName.includes(normalized)) {
     return 4;
   }
   return 5;
@@ -179,7 +194,7 @@ export function SearchScreen() {
         (a, b) =>
           a.rank - b.rank ||
           a.entry.name.length - b.entry.name.length ||
-          a.entry.name.localeCompare(b.entry.name, "zh-CN"),
+          COLLATOR.compare(a.entry.name, b.entry.name),
       )
       .map(({ entry }) => entry);
   }, [entries, normalized]);

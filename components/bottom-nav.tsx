@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { HomeIcon, InfoIcon, SearchIcon } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
+import { prefetchSearchIndex } from "@/lib/items";
 
 const TABS = [
   {
@@ -71,6 +72,7 @@ export function BottomNav() {
         size="icon-lg"
         aria-label="搜索资源"
         nativeButton={false}
+        onPointerDown={prefetchSearchIndex}
         className="pointer-events-auto size-12 rounded-full border-border/50 bg-background/70 shadow-lg backdrop-blur-xl"
         render={<Link href="/search" />}
       >
